@@ -11,12 +11,14 @@ brew tap takish/tap
 # Install a package
 brew install flappy-bird-tui
 brew install git-trainer
+brew install pkt-monitor
 ```
 
 ## Available Packages
 
 - **flappy-bird-tui**: Terminal-based Flappy Bird clone built with Go and Bubble Tea
 - **git-trainer**: Git/GitHubの基本操作を安全な疑似環境で学べるTUIゲーム
+- **pkt-monitor**: libpcapを使ったクロスプラットフォームパケットモニター（ncurses TUI対応）
 
 ## Usage
 
@@ -24,14 +26,17 @@ brew install git-trainer
 # Install
 brew install flappy-bird-tui
 brew install git-trainer
+brew install pkt-monitor
 
 # Upgrade
 brew upgrade flappy-bird-tui
 brew upgrade git-trainer
+brew upgrade pkt-monitor
 
 # Uninstall
 brew uninstall flappy-bird-tui
 brew uninstall git-trainer
+brew uninstall pkt-monitor
 ```
 
 ## For Developers
